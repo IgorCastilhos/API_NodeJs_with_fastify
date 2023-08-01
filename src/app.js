@@ -10,7 +10,7 @@ const bookingService = new BookingService(bookingRepository)
 const bookingController = new BookingController(bookingService)
 
 app.get('/hello', (request, reply) => {
-  reply.send('Hello World!!')
+  reply.send('Hello World!')
 })
 
 app.get('/api/bookings', (request, reply) => {
